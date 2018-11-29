@@ -23,7 +23,7 @@ export default {
         },
         headers: {
           'token': 'aaa',
-          'Content-Type': 'application/json;charset=UTF-8'
+          'Content-Type': 'application/json;charset=UTF-8' //json格式  //'Content-Type':'application/x-www-form-urlencoded' //form-data格式
         }
       })
         .then(function (res) {
